@@ -1,16 +1,40 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../font/Montserrat/Montserrat-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Dancing';
+    src: url('../font/DancingScript/DancingScript-VariableFont_wght.ttf');
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
 h1 {
     margin-bottom: 2rem;
 }
 
 h2 {
+    font-family: 'Dancing';
     text-align: center;
     color: #A57D5C;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 h3 {
+    font-family: 'Dancing';
+    font-size: 1.4rem;
     text-align: center;
 }
+
+h4 {
+    font-family: 'Dancing';
+    text-align: center;
+    margin-bottom: 10px;
+}
+
 header h3 {
     color: #f3f3f3;
     font-size: 2.5rem;
@@ -35,12 +59,12 @@ footer h2 {
 }
 
 .foodCardContainer .foodCard {
-    width: 150px;
-    margin-bottom: 1rem;
+    width: 300px;
+    margin-bottom: 3rem;
 }
 
 .foodCard .foodCardImg {
-    height: 150px;
+    height: 250px;
     width: 100%;
 }
 

@@ -541,6 +541,7 @@ footer .legal {
 .overlay .topContainer {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     height: 70px;
     width: 100%;
     background-color: white;
@@ -550,11 +551,17 @@ footer .legal {
     height: 30px;
     width: 30px;
 }
+
 .overlay .overlayMenuContent {
     display: flex;
     flex-direction: column;
     height: 100%;
     background-color: rgba(11, 11, 11, 0.567);
+}
+
+.overlay .close {
+    height: 40px;
+    margin: 0.6rem 1.75rem 0 0;
 }
 
 .menuLinks {
@@ -584,7 +591,12 @@ footer .legal {
     align-self: flex-end;
 }
 
-.overlayMenuBurger.active {
+.overlayMenuBurger.open {
     transform: translateX(0);
+    transition: 0.5s;
+}
+
+.overlayMenuBurger.close {
+    transform: translateX(100%);
     transition: 0.5s;
 }
