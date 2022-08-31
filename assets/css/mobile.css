@@ -520,83 +520,89 @@ footer .legal {
     ##################### Overlay Menu Burger ######################
     ################################################################*/
 
-.overlayMenuBurger {
-    position: fixed;
-    display: flex;
-    justify-content: flex-end;
-    top: 0px;
-    left: 0;
-    width: 100%;
-    height: 100vh;;
-    z-index: 100;
-    transform: translateX(100%);
-}
-
-.overlay {
-    width: 100%;
-    height: 100%;
-    background-color: #f3f3f366;
-}
-
-.overlay .topContainer {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 70px;
-    width: 100%;
-    background-color: white;
-}
-
-.topcontainer img {
-    height: 30px;
-    width: 30px;
-}
-
-.overlay .overlayMenuContent {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    background-color: rgba(11, 11, 11, 0.567);
-}
-
-.overlay .close {
-    height: 40px;
-    margin: 0.6rem 1.75rem 0 0;
-}
-
-.menuLinks {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.605);
-}
-
-.menuLinks a {
-    text-decoration: none;
-    font-size: 1.8rem;
-    color: #A57D5C;
-    margin: 1.5rem;
-    text-shadow: 2px 2px 2px black;
-}
-
-.menuLinks .connect {
-    display: flex;
-    margin-bottom: 1rem;
-}
-
-.menuLinks .connect a {
-    font-size: 1rem;
-    align-self: flex-end;
-}
-
-.overlayMenuBurger.open {
-    transform: translateX(0);
-    transition: 0.5s;
-}
-
-.overlayMenuBurger.close {
-    transform: translateX(100%);
-    transition: 0.5s;
+@media (max-width: 600px) {
+    .menuLinksDesktop {
+        display: none;
+    }
+    
+    .overlayMenuBurger {
+        position: fixed;
+        display: flex;
+        justify-content: flex-end;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        height: 100vh;;
+        z-index: 100;
+        transform: translateX(100%);
+    }
+    
+    .overlay {
+        width: 100%;
+        height: 100%;
+        background-color: #f3f3f366;
+    }
+    
+    .overlay .topContainer {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 70px;
+        width: 100%;
+        background-color: white;
+    }
+    
+    .topcontainer img {
+        height: 30px;
+        width: 30px;
+    }
+    
+    .overlay .overlayMenuContent {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        background-color: rgba(11, 11, 11, 0.567);
+    }
+    
+    .overlay .close {
+        height: 40px;
+        margin: 0.6rem 1.75rem 0 0;
+    }
+    
+    .menuLinks {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.605);
+    }
+    
+    .menuLinks a {
+        text-decoration: none;
+        font-size: 1.8rem;
+        color: #A57D5C;
+        margin: 1.5rem;
+        text-shadow: 2px 2px 2px black;
+    }
+    
+    .menuLinks .connect {
+        display: flex;
+        margin-bottom: 1rem;
+    }
+    
+    .menuLinks .connect a {
+        font-size: 1rem;
+        align-self: flex-end;
+    }
+    
+    .overlayMenuBurger.open {
+        transform: translateX(0);
+        transition: 0.5s;
+    }
+    
+    .overlayMenuBurger.close {
+        transform: translateX(100%);
+        transition: 0.5s;
+    }
 }

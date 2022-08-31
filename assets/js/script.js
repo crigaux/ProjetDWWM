@@ -157,33 +157,3 @@ dessert.addEventListener('click', () => {
                             <p>Lorem ipsum dolor sit amet consectetur.</p>
                             </div>`
 })
-drinks.addEventListener('click', () => {
-    container.innerHTML = `<div class="catDishiesItem">
-                            <div class="catDishiesItemTitle">
-                                <h4>Boisson 1</h4>
-                                <span>25€</span>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet consectetur.</p>
-                            </div>
-                            <div class="catDishiesItem">
-                            <div class="catDishiesItemTitle">
-                                <h4>Boisson 2</h4>
-                                <span>25€</span>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet consectetur.</p>
-                            </div>
-                            <div class="catDishiesItem">
-                            <div class="catDishiesItemTitle">
-                                <h4>Boisson 3</h4>
-                                <span>25€</span>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet consectetur.</p>
-                            </div>
-                            <div class="catDishiesItem">
-                            <div class="catDishiesItemTitle">
-                                <h4>Boisson 4</h4>
-                                <span>25€</span>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet consectetur.</p>
-                            </div>`
-})
