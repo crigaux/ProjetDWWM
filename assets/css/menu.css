@@ -96,54 +96,46 @@ footer h2 {
     font-size: 0.9rem;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 1200px) {
     header {
         margin-bottom: 2rem;
     }
 
-    .overlayMenuBurger {
-        display: none;
-    }
-    
-    .burgerMenuIcon {
-        display: none;
-    }
-
-    .menuLinksDesktop {
-        display: block !important;
+    header .menuLinksDesktop {
         width: 60%;
-        display: flex !important;
-        align-items: center;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-right: 1rem;
     }
 
-    .menuLinksDesktop .connect {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 25%;
-        margin-right: 1rem;
-        margin-top: 0.3rem;
-    }
-
-    .menuLinksDesktop .connect h3 {
-        font-size: 0.5rem;
-    }
-
-    .menuLinksDesktop a {
-        color: white;
-        font-size: 0.8rem;
-    }
-
-    .menuLinksDesktop h3 {
+    header .menuLinksDesktop h3 {
         font-family: 'Montserrat';
-        font-size: 0.7rem;
+        font-size: 1.2rem;
+    }
+
+    header .menuLinksDesktop div a {
+        margin-right: 2rem;
     }
 
     .foodCardContainer {
         width: 85%;
         margin-left: 7.5%;
+    }
+
+    .starter .foodCard,
+    .mainDishies .foodCard,
+    .dessert .foodCard {
+        width: 45%;
+    }
+
+    .starter .foodCard img,
+    .mainDishies .foodCard img,
+    .dessert .foodCard img {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .starter .foodCard p,
+    .mainDishies .foodCard p,
+    .dessert .foodCard p {
+        width: 80%;
+        margin: 1rem 0 0 10%;
     }
 }
