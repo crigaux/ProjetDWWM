@@ -101,6 +101,11 @@ nav {
     width: 100%;
     position: absolute;
     top: 0;
+    background-color: rgba(51, 51, 51, 0.356);
+}
+
+nav button {
+    cursor: pointer;
 }
 
 .burgerMenuIcon {
@@ -471,7 +476,7 @@ header .whiteBrush {
 }
 
 /*  ################################################################ 
-    ####################### Aperçu du menu #########################
+    #######################     Footer     #########################
     ################################################################*/
 
 footer {
@@ -515,6 +520,53 @@ footer .legal {
     margin: 1rem 0;
     font-size: 0.7rem;
 }
+
+/*  ################################################################ 
+    ################### Formulaire de connexion ####################
+    ################################################################*/
+
+    .connectHeader {
+        height: 45vh;
+    }
+
+    .connectHeader h1 {
+        margin: 0;
+    }
+
+    .connectHeader h2 {
+        color: #f3f3f3;
+        font-size: 2.5rem;
+        margin-top: -1rem;
+        text-shadow: 5px 5px 2px #000;
+    }
+
+    .connectForm {
+        border: 1px solid #333;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 80%;
+        margin: 1rem 0 2rem 10%;
+        height: calc(55vh - 3rem);
+        border-radius: 10px;
+    }
+
+    .connectForm input {
+        margin-top: 3rem;
+        text-align: center;
+        padding: 0.5rem;
+        border-radius: 10px;
+        border: 1px solid #333;
+    }
+
+    .connectForm input:focus {
+        outline: none;
+    }
+
+    .connectForm button {
+        margin-top: 3rem;
+    }
 
 /*  ################################################################ 
     ##################### Overlay Menu Burger ######################

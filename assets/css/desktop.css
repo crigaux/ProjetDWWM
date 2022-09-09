@@ -1,8 +1,9 @@
 @media (min-width: 1200px) {
 
-    h2 {
-        font-size: 3.5rem;
+    h1 {
+        font-size: 10rem;
     }
+
     /*  ################################################################ 
     ####################### Gestion Menu Desktop #######################
     ################################################################*/
@@ -56,6 +57,12 @@
 
     .presentation {
         display: flex;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .presentation .about h2 {
+        font-size: 3.5rem;
     }
 
     .presentation .presImgContainer {
@@ -109,6 +116,10 @@
         align-items: center;
     }
 
+    .reservation h2 {
+        font-size: 3.5rem;
+    }
+
     .reservation form {
         width: 60%;
     }
@@ -125,6 +136,10 @@
     ########################## Avantages Desktop #######################
     ################################################################*/
 
+    .ourForces h2 {
+        font-size: 3.5rem;
+    }
+
     .ourForces .featureContainer div {
         width: 25%;
     }
@@ -136,6 +151,10 @@
     /*  ################################################################ 
     ###################### Menu Preview Desktop ########################
     ################################################################*/
+
+    .menuPreview h2 {
+        font-size: 3.5rem;
+    }
 
     .menuPreview .menuPreviewContainer {
         margin-left: 25%;
@@ -159,6 +178,10 @@
     /*  ################################################################ 
     ################### Apreçu commentaire Desktop #####################
     ################################################################*/
+
+    .reviewPreview h2 {
+        font-size: 3.5rem;
+    }
 
     .reviewPreview p {
         width: 66%;
