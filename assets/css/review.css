@@ -2,7 +2,6 @@ header h3 {
     color: #f3f3f3;
     font-size: 2.5rem;
     margin-top: -1rem;
-    text-shadow: 5px 5px 2px #000;
     font-family: 'Dancing';
 }
 
@@ -16,8 +15,8 @@ header h3 {
     }
 
     header .menuLinksDesktop h3 {
-        font-family: 'Montserrat';
-        font-size: 1.2rem;
+        font-family: 'UnicaOne', Courier, monospace;
+        font-size: 1.4rem;
     }
 
     header .menuLinksDesktop div a {
