@@ -278,6 +278,10 @@ header .whiteBrush {
     width: 100%;
 }
 
+input,
+textarea {
+    border-radius: 5px;
+}
 .reservation form input::placeholder,
 .reservation form textarea::placeholder {
     color: #f3f3f3;
